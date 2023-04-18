@@ -25,6 +25,10 @@ header label:hover {
     background-color: rgba(0,0,0,0.3);
 }
 
+* p{
+    color: rebeccapurple;
+}
+
 .boton {
     background-color: rebeccapurple;
     border-radius: 5px;
