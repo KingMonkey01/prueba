@@ -1,6 +1,7 @@
 body {
     margin: 0;
     font-family: sans-serif;
+    background-color: rgb(223, 210, 236);
 }
 
 header {
@@ -31,16 +32,19 @@ header label:hover {
 
 .boton {
     background-color: rebeccapurple;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 10px;
+    padding: 10px;
     margin: 0;
     border: none;
     color: #fff;
+    box-shadow: 9px 9px 9px rgb(151, 121, 182) ;
+   
 
 }
 .boton:hover {
     background-color: rgb(136, 97, 175);
     color: #fff;
+    
 }
 
 main {
@@ -52,18 +56,19 @@ main {
     list-style: none;
     padding: 0;
     display: flex;
+    box-shadow: 9px 9px 10px rebeccapurple ;
 }
 
 .menu li {
     text-align: center;
-    box-shadow: 5px 5px 7px rebeccapurple ;
    
 }
 
 .menu li :hover {
     background: white;
     border-radius: 7px;
-    color: blueviolet;
+    color: rebeccapurple;
+
     
 }
 
@@ -85,8 +90,7 @@ main {
         height: 100%;
         margin-left:0;
         opacity: 0.8;
-        box-shadow: 7px 7px 15px rebeccapurple; /* Propiedad de sombra */
-        transition: 0.4s ease-in-out;
+        box-shadow: 7px 7px 15px rgb(173, 124, 223);
     }
 
     .menu ul {
